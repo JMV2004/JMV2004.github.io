@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Registro</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+
+            <nav id="nav">
+                <ul>
+                    <li style="font-size: 18px; font-weight: bold;"><a href="index.html">Inicio</a></li>
+                    <section>
+                        <h3>Rellenar el formulario</h3>
+                        <form method="POST" action="registro.php">
+                            <div class="row gtr-uniform gtr-50">
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="text" name="txtnombre" id="name" value="" placeholder="Nombre" />
+                                </div>
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="text" name="txtapellido" placeholder="Apellido" />
+                                </div>
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="text" name="txtedad" placeholder="Edad" />
+                                </div>
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="text" name="txtdni" placeholder="DNI" />
+                                </div>
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="email" name="txtemail" id="email" placeholder="Email" />
+                                </div>
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="text" name="txtpes" placeholder="Puesto en Sublimación" />
+                                </div>
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="text" name="txtsueldo" placeholder="Sueldo" />
+                                </div>
+                                <div class="col-6 col-12-xsmall">
+                                    <input type="text" name="txtbds" placeholder="Bonos de Sueldo" />
+                                </div>
+                                <div class="col-12">
+                                    <select name="cmbsexo">
+                                        <option value="">- Genero -</option>
+                                        <option value="Masculino">Masculino</option>
+                                        <option value="Femenino">Femenino</option>
+
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <ul class="actions">
+                                        <li><input type="submit" value="Enviar " class="primary" /></li>
+                                        <li><input type="reset" value="Reset" /></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </form>
+                    </section>
+            </nav>
+
+</body>
